@@ -16,3 +16,13 @@ webpack -p
 # What about iOS
 
 iOS (safari) do not support `MediaStreamTrack.getSources()`, `MediaDevices.enumerateDevices()` or whatever yet.
+
+# Related Projects
+
+- [js-aruco](https://github.com/jcmellado/js-aruco)
+
+- [ARLIFXController](https://github.com/sitepoint-editors/ARLIFXController)
+
+- [threex.webar](https://github.com/jeromeetienne/threex.webar)
+
+- [threejs-mmd-loader](https://github.com/mrdoob/three.js/blob/dev/examples/webgl_loader_mmd.html)
