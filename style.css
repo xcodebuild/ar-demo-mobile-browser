@@ -50,7 +50,7 @@ body {
         max-height: 560px;
     }
     .phone {
-        background: url(/res/phone.png) no-repeat;
+        background: url(./res/phone.png) no-repeat;
         background-size: contain;
         padding: 100px 12px;
         min-width: 325px;
