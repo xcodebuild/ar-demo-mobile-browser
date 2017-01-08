@@ -3,6 +3,8 @@
 /* global POS */
 
 import '../lib/MMDLoader.js';
+import 'babel-polyfill';
+
 // THREE.MMDLoader = MMDLoader;
 
 const oldOnload = window.onload;

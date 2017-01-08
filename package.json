@@ -29,6 +29,7 @@
   "dependencies": {
     "ammo": "^2.0.3",
     "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
     "mmd-parser": "^1.0.3"
   }
 }

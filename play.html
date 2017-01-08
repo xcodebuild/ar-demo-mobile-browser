@@ -1,6 +1,17 @@
 <html>
   <head>
-   <title>AR 2017 Player</title>
+    <title>AR 2017 Player</title>
+    <script src="node_modules/eruda/eruda.min.js"></script>
+    <script>
+     window.onload = function(){
+       var el = document.createElement('div');
+       document.body.appendChild(el);
+
+       eruda.init({
+         container: el,
+       });
+     }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#cf3a3f">
     <meta charset="utf-8">
