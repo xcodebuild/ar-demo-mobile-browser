@@ -1,0 +1,34 @@
+{
+  "name": "ar-2017",
+  "version": "1.0.0",
+  "description": "AR demo on 2017 new year ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefalling/ar-2017.git"
+  },
+  "keywords": [
+    "AR"
+  ],
+  "author": "codefalling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefalling/ar-2017/issues"
+  },
+  "homepage": "https://github.com/codefalling/ar-2017#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "eruda": "^1.2.0",
+    "webpack": "^2.2.0-rc.3",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {
+    "ammo": "^2.0.3",
+    "babel-loader": "^6.2.10",
+    "mmd-parser": "^1.0.3"
+  }
+}

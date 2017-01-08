@@ -1,0 +1,61 @@
+.container {
+    background: #cf3a3f;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.container.white {
+    background: white;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn {
+    background: #eecc90;
+    color: #514f4c;
+    padding: 18px 40px;
+    display: block;
+    margin: 15% 8% 15% 8%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.title {
+    color: #b82c31;
+    font-size: 50px;
+    margin: 12% 0 12% 0;
+}
+
+.title.red {
+    color: #cf3a3f;
+}
+
+.footer {
+    color: #c3acac;
+    font-size: 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        max-width: 326px;
+        max-height: 560px;
+    }
+    .phone {
+        background: url(/res/phone.png) no-repeat;
+        background-size: contain;
+        padding: 100px 12px;
+        min-width: 325px;
+        display: inline-block;
+        width: 325px;
+        height: 700px;
+    }
+}

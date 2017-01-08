@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#cf3a3f">
+        <title>AR 2017</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div class="phone">
+        <div class="container">
+          <div class="title">AR</div>
+          <a class="btn" href="play.html" onClick="checkBrowser()">扫码</a>
+          <a class="btn" href="code.html">传递</a>
+          <a class="footer" href="https://github.com/codefalling/ar-demo-mobile-browser">@当轩(codefalling)</a>
+        </div>
+      </div>
+    </body>
+    <script>
+     function checkBrowser(e){
+       var ua = navigator.userAgent.toLowerCase();
+       var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+       if(!isAndroid) {
+         alert('该功能仅在 Android 上可用');
+         window.event.preventDefault();
+         return false;
+       }
+     }
+    </script>
+</html>
+
